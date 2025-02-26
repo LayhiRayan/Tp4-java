@@ -1,7 +1,7 @@
 package ex1;
 
 public abstract class Personne {
-	private static int compt;
+	public static int compt;
 	protected int id;
 	protected String nom;
 	protected String prenom;
