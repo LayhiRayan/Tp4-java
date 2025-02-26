@@ -21,13 +21,7 @@ public class Manager extends Personne {
         return salaire * 1.35; 
     }
 
-    @Override
-    public String toString() {
-        return "Manager [id=" + id + ", nom=" + nom.toUpperCase() + 
-               ", prenom=" + prenom.substring(0, 1).toUpperCase() + prenom.substring(1).toLowerCase() +
-               ", mail=" + mail + ", telephone=" + telephone + 
-               ", salaire=" + calculerSalaire() + " dh, service=" + service + "]";
-    }
+
 
     public String afficher() {
         return "Le salaire du manager " + prenom.substring(0, 1).toUpperCase() + prenom.substring(1).toLowerCase() +
